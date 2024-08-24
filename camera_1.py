@@ -43,7 +43,6 @@ def detect_faces(frame):
 
     return frame
 
-# Function to start the camera and perform emotion detection
 def start_emotion_detection():
     cap = cv2.VideoCapture(0)
 
